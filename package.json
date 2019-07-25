@@ -1,0 +1,24 @@
+{
+  "name": "electron-android-messages",
+  "version": "1.0.0",
+  "description": "https://messages.android.com in an Electron standalone application, packaged with Electron-builder.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "electron-android-messages",
+  "keywords": [
+    "Electron",
+    "Android",
+    "Messages",
+    "Standalone"
+  ],
+  "author": "Michael Rooplall",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^5.0.8"
+  },
+  "dependencies": {
+    "electron-builder": "^21.1.5"
+  }
+}
