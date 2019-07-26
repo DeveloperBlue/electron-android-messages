@@ -6,7 +6,7 @@ This project is nothing elaborate and serves more as a means to educate myself.
 
 # Releases
 
-Head over to [releases]() to download the prebuilt application for your desired OS.
+Head over to [releases](https://github.com/DeveloperBlue/electron-android-messages/releases) to download the prebuilt application for your desired OS.
 
 # Build It Yourself
 

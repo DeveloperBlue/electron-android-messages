@@ -4,9 +4,9 @@
   "description": "https://messages.android.com in an Electron standalone application, packaged with Electron-builder.",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
   },
-  "repository": "electron-android-messages",
+  "repository": "https://github.com/DeveloperBlue/electron-android-messages.git",
   "keywords": [
     "Electron",
     "Android",
@@ -15,10 +15,9 @@
   ],
   "author": "Michael Rooplall",
   "license": "MIT",
+  "dependencies": {},
   "devDependencies": {
-    "electron": "^5.0.8"
-  },
-  "dependencies": {
-    "electron-builder": "^21.1.5"
+    "electron": "5.0.6",
+    "electron-packager": "^14.0.3"
   }
 }
