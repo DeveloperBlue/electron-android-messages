@@ -5,6 +5,9 @@
   "main": "main.js",
   "scripts": {
     "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder",
+    "dist-all": "electron-builder -mwl"
   },
   "repository": "https://github.com/DeveloperBlue/electron-android-messages.git",
   "keywords": [
@@ -13,11 +16,19 @@
     "Messages",
     "Standalone"
   ],
+  "build": {
+    "appId": "electron-android-messages.developerblue",
+    "productName": "Android Messages",
+    "copyright": "MIT",
+    "mac" : {
+      "category" : "public.app-category.social-networking"
+    }
+  },
   "author": "Michael Rooplall",
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
     "electron": "5.0.6",
-    "electron-packager": "^14.0.3"
+    "electron-builder": "^21.1.5"
   }
 }
